@@ -1,9 +1,10 @@
 #!/usr/bin/bash
+cd ~ && mkdir .github && cd .github
 echo "# github-guideline" >> README.md
 git init #initialize
 git add README.md #add file
-git commit -m "commit log" # commit file; -m required, refer to log message
-git branch -d main # remove your local branch
+git commit -m "commit README.md" # commit file; -m required, refer to log message
+#git branch -d main # remove your local branch
 git remote add guideline https://github.com/DC-Jade/github-guideline.git # add remote
 git push -u guideline master # publish your file at master branch
 
