@@ -1,5 +1,5 @@
 #!/usr/bin/bash
-cd ~ && mkdir .github && cd .github
+cd ~ && mkdir .github && cd .github && mkdir github-guideline && cd github-guideline
 echo "# github-guideline" >> README.md
 git init #initialize
 git add README.md #add file
